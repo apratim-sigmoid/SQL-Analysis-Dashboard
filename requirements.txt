@@ -1,0 +1,9 @@
+streamlit
+pandas
+openpyxl
+langchain-openai
+langchain-community
+rank-bm25
+pydantic
+SQLAlchemy
+python-dotenv
