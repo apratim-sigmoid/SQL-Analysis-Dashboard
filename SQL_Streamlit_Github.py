@@ -291,7 +291,7 @@ def main():
         # Sample queries
         st.markdown("#### Sample Queries")
         sample_queries = [
-            "What is the cost per pallet for alloga uk in 2024?",
+            "What is the cost per pallet for TESCO GROCERY DEPT (RUGBY) in 2024?",
             "How has the cost per pallet evolved over the last 3 months?",
             "Find the top 5 NAMEs by total pallets shipped",
             "What is the trend in total shipping costs over time?",
