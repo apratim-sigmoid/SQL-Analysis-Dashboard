@@ -169,6 +169,9 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+logo = Image.open("perrigo-logo.png")
+st.image(logo, width=100)
+
 # Custom CSS
 st.markdown("""
     <style>
