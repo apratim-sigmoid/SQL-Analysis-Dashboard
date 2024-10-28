@@ -210,7 +210,7 @@ def reset_app_state():
         del st.session_state.bm25_obj
 
 def main():
-    st.title("🤖 SQL Analysis Dashboard")
+    st.markdown('<p>Shipment Optimization & Planning Dashboard</p>', unsafe_allow_html=True)
     
     # Sidebar for configuration
     with st.sidebar:
