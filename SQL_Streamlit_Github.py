@@ -246,7 +246,7 @@ def main():
     
     # Main content area
     if not api_key:
-        st.info("👋 Please enter your OpenAI API key in the sidebar to get started.")
+        st.info("Please enter your OpenAI API key in the sidebar to get started.")
         return
     
     # Check data availability and initialization
