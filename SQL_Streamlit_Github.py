@@ -210,7 +210,7 @@ def reset_app_state():
         del st.session_state.bm25_obj
 
 def main():
-    st.markdown('<p>Shipment Optimization & Planning Dashboard</p>', unsafe_allow_html=True)
+    st.markdown('<h2>GenAI Answer Bot</h2>', unsafe_allow_html=True)
     
     # Sidebar for configuration
     with st.sidebar:
