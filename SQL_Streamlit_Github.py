@@ -293,7 +293,7 @@ def main():
         sample_queries = [
             "What is the cost per pallet for TESCO GROCERY DEPT (RUGBY) in 2024?",
             "Find the top 5 NAMEs by total pallets shipped",
-            "What is the trend in total shipping costs over time?",
+            "What is the trend in total shipping costs over months?",
             "Calculate the average Distance covered per order for each NAME",
             "Which regions have the highest shipping costs?",
             "Compare the cost efficiency between different product types"
