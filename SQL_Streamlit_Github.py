@@ -25,7 +25,30 @@ load_dotenv()
 DEFAULT_DATA_PATH = "Data.csv"
 
 def load_default_data():
-    df = pd.read_csv(DEFAULT_DATA_PATH)
+    """Load the default CSV file if it exists."""
+    try:
+        if os.path.exists(DEFAULT_DATA_PATH):
+            encodings = ['utf-8', 'latin1', 'iso-8859-1', 'cp1252']
+            df = None
+            
+            for encoding in encodings:
+                try:
+                    df = pd.read_csv(DEFAULT_DATA_PATH, encoding=encoding)
+                    break
+                except UnicodeDecodeError:
+                    continue
+            
+            if df is None:
+                st.error("❌ Could not read the file with any standard encoding.")
+                return None
+                
+            return df
+        else:
+            st.error(f"❌ Default data file '{DEFAULT_DATA_PATH}' not found!")
+            return None
+    except Exception as e:
+        st.error(f"❌ Error loading default data: {str(e)}")
+        return None
 
 def process_dataframe_to_store_in_db(df):
     """Replace whitespace in column names with underscore."""
