@@ -310,7 +310,7 @@ def cleanup_db_connections(db):
 
 # Streamlit app configuration
 st.set_page_config(
-    page_title="SQL Analysis Dashboard",
+    page_title="Perrigo GenAI Answer Bot",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
