@@ -464,7 +464,7 @@ def main():
             submit_button = st.button("🔍 Submit Query")
         
         if submit_button and query:
-            with st.spinner("🔄 Analyzing your query..."):
+            with st.spinner("Analyzing your query..."):
                 try:
                     context = fetch_query_content_from_table(
                         bm25=st.session_state.bm25_obj,
