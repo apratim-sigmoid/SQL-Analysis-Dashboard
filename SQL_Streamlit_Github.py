@@ -477,7 +477,8 @@ def main():
 
                     The following context contains sample rows from the data to help you construct the correct SQL query. 
                     Use this context to identify the appropriate columns and create an SQL query that accurately retrieves the required information.
-                    the cost column has values in pounds (£).
+                    The cost column has values in pounds (£).
+                    The SHIPPED_DATE column has date in dd-mm-yyyy format e.g. 31-08-2024
                     `{__context__}`
                     """
                     
