@@ -242,7 +242,7 @@ def main():
             uploaded_file = st.file_uploader("Upload Excel file", type=['xlsx'])
             if uploaded_file:
                 try:
-                    df = pd.read_excel(uploaded_file, sheet_name="Aggregated Data")
+                    df = pd.read_excel(uploaded_file, sheet_name="Sheet1")
                     st.success("✅ Custom file loaded successfully!")
                 except Exception as e:
                     st.error(f"❌ Error loading custom file: {str(e)}")
