@@ -219,8 +219,7 @@ def main():
         # API Key input
         st.subheader("1. API Key")
         api_key = st.text_input("Enter OpenAI API Key:", type="password")
-        if not api_key:
-            st.warning("⚠️ Please enter your OpenAI API key")
+        
         
         # Data source selection
         st.subheader("2. Data Source Selection")
