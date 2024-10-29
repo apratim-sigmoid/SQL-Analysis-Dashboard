@@ -443,7 +443,8 @@ def main():
             "What is the average distance and total cost by PROD TYPE?",
             "Compare the cost efficiency between different product types",
             "Which customer has the highest number of total orders in AMBCONTROL product type, also mention total orders.",
-            "What is the trend in total orders over months for AMBIENT product type"
+            "What is the trend in total orders over months for AMBIENT product type",
+            "Which customer has maximum number of orders shipped in a day."
         ]
         
         selected_query = st.selectbox(
