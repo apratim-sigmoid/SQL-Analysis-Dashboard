@@ -317,7 +317,7 @@ st.set_page_config(
 )
 
 logo = Image.open("perrigo-logo.png")
-st.image(logo, width=100)
+st.image(logo, width=120)
 
 # Custom CSS
 st.markdown("""
@@ -442,7 +442,8 @@ def main():
             "Identify 10 SHORT_POSTCODE with the highest total costs and also mention their cost per pallet.",
             "What is the average distance and total cost by PROD TYPE?",
             "Compare the cost efficiency between different product types",
-            "Which customer has the highest number of total orders in AMBCONTROL product type, also mention total orders."
+            "Which customer has the highest number of total orders in AMBCONTROL product type, also mention total orders.",
+            "What is the trend in total orders over months for AMBIENT product type"
         ]
         
         selected_query = st.selectbox(
