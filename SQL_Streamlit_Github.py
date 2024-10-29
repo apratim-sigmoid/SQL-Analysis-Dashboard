@@ -439,7 +439,7 @@ def main():
         sample_queries = [
             "Find the top 5 NAMEs by total pallets shipped",
             "Identify 10 SHORT_POSTCODE with the highest total costs and also mention their cost per pallet.",
-            "What is the trend in total shipping costs over months?",
+            "What is the trend in total costs over months?",
             "Compare the cost efficiency between different product types"
         ]
         
