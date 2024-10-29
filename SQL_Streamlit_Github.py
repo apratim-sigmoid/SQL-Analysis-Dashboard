@@ -438,6 +438,7 @@ def main():
         st.markdown("#### Sample Queries")
         sample_queries = [
             "Find the top 5 Customer by total pallets shipped",
+            "Which customer have more than 100 orders with cost per pallet > 40",
             "Identify 10 SHORT_POSTCODE with the highest total costs and also mention their cost per pallet.",
             "What is the average distance and total cost by PROD TYPE?",
             "Compare the cost efficiency between different product types",
