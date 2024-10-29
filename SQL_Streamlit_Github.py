@@ -477,6 +477,7 @@ def main():
 
                     The following context contains sample rows from the data to help you construct the correct SQL query. 
                     Use this context to identify the appropriate columns and create an SQL query that accurately retrieves the required information.
+                    the cost column has values in pounds (£).
                     `{__context__}`
                     """
                     
