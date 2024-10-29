@@ -440,7 +440,8 @@ def main():
             "Find the top 5 Customer by total pallets shipped",
             "Identify 10 SHORT_POSTCODE with the highest total costs and also mention their cost per pallet.",
             "What is the average distance and total cost by PROD TYPE?",
-            "Compare the cost efficiency between different product types"
+            "Compare the cost efficiency between different product types",
+            "Which customer has the highest number of total orders in AMBCONTROL product type, also mention total orders."
         ]
         
         selected_query = st.selectbox(
